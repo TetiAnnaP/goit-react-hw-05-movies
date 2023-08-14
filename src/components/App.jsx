@@ -37,7 +37,7 @@ export const App = () => {
     <div>
       <StyledHeader>
         <nav>
-          <StyledNavLink to="/goit-react-hw-05-movies">Home</StyledNavLink>
+          <StyledNavLink to="/">Home</StyledNavLink>
           <StyledNavLink to="/movies">Movies</StyledNavLink>
         </nav>
       </StyledHeader>
