@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/TetiAnnaP/static/css/main.7acaea2f.css",
-    "main.js": "/TetiAnnaP/static/js/main.07d3183d.js",
+    "main.css": "/TetiAnnaP/static/css/main.b5320759.css",
+    "main.js": "/TetiAnnaP/static/js/main.a0b98024.js",
+    "static/js/983.32ab108f.chunk.js": "/TetiAnnaP/static/js/983.32ab108f.chunk.js",
+    "static/js/797.f1d5fd13.chunk.js": "/TetiAnnaP/static/js/797.f1d5fd13.chunk.js",
+    "static/js/998.04b70a93.chunk.js": "/TetiAnnaP/static/js/998.04b70a93.chunk.js",
+    "static/js/805.18574112.chunk.js": "/TetiAnnaP/static/js/805.18574112.chunk.js",
+    "static/js/279.2c004ea1.chunk.js": "/TetiAnnaP/static/js/279.2c004ea1.chunk.js",
     "index.html": "/TetiAnnaP/index.html",
-    "main.7acaea2f.css.map": "/TetiAnnaP/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/TetiAnnaP/static/js/main.07d3183d.js.map"
+    "main.b5320759.css.map": "/TetiAnnaP/static/css/main.b5320759.css.map",
+    "main.a0b98024.js.map": "/TetiAnnaP/static/js/main.a0b98024.js.map",
+    "983.32ab108f.chunk.js.map": "/TetiAnnaP/static/js/983.32ab108f.chunk.js.map",
+    "797.f1d5fd13.chunk.js.map": "/TetiAnnaP/static/js/797.f1d5fd13.chunk.js.map",
+    "998.04b70a93.chunk.js.map": "/TetiAnnaP/static/js/998.04b70a93.chunk.js.map",
+    "805.18574112.chunk.js.map": "/TetiAnnaP/static/js/805.18574112.chunk.js.map",
+    "279.2c004ea1.chunk.js.map": "/TetiAnnaP/static/js/279.2c004ea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.b5320759.css",
+    "static/js/main.a0b98024.js"
   ]
 }
