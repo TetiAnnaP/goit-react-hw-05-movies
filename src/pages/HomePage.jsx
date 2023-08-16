@@ -15,18 +15,13 @@ const HomePage = ({ getTrenDingMovieTitle }) => {
         // console.log(data);
         setTrendingMoviesList(data);
       } catch (error) {
-        console.log(error.message);
+        // console.log(error.message);
         setError(error.massage);
       }
     };
 
     fetchData();
   }, []);
-
-  const handleTrendingMovieClick = e => {
-    const movieId = e.target.dataset.id;
-    getTrenDingMovieTitle(movieId);
-  };
 
   return (
     <div>
@@ -38,7 +33,6 @@ const HomePage = ({ getTrenDingMovieTitle }) => {
             <Link
               state={{ from: location }}
               to={`/movies/${movie.id}`}
-              onClick={handleTrendingMovieClick}
               data-id={movie.id}
             >
               {movie.title}

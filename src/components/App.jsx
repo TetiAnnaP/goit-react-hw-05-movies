@@ -1,5 +1,4 @@
-import { PropTypes } from 'prop-types';
-import { Suspense, lazy, useState } from 'react';
+import { Suspense, lazy } from 'react';
 import { ColorRing } from 'react-loader-spinner';
 import { NavLink, Routes, Route } from 'react-router-dom';
 import { styled } from 'styled-components';
@@ -27,12 +26,6 @@ const StyledNavLink = styled(NavLink)`
 `;
 
 export const App = () => {
-  const [id, setId] = useState('');
-
-  const getTrenDingMovieTitle = id => {
-    setId(id);
-  };
-
   return (
     <div>
       <StyledHeader>
@@ -56,26 +49,13 @@ export const App = () => {
           }
         >
           <Routes>
-            <Route
-              path="/"
-              element={
-                <HomePage getTrenDingMovieTitle={getTrenDingMovieTitle} />
-              }
-            ></Route>
+            <Route path="/" element={<HomePage />}></Route>
             <Route path="/movies/*" element={<MoviesPage />}></Route>
-            <Route
-              path="/movies/:id/*"
-              element={<MoviesDetailsPage id={id} />}
-            ></Route>
+            <Route path="/movies/:id/*" element={<MoviesDetailsPage />}></Route>
             <Route path="*" element={<NotFound />}></Route>
           </Routes>
         </Suspense>
       </main>
     </div>
   );
-};
-
-App.propTypes = {
-  id: PropTypes.string,
-  getTrenDingMovieTitle: PropTypes.func,
 };
